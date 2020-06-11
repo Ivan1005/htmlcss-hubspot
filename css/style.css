@@ -196,7 +196,57 @@ li a {
 }
 .two {
   height: 300px;
-  background-color: pink;
+  background-color: white;
+}
+
+.two-box {
+  width: 70%;
+  margin: 30px auto;
+}
+
+ .sinistra {
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+.image {
+  height: 90px;
+  margin: 50px auto;
+}
+
+.destra {
+  width: 75%;
+  float: left;
+}
+
+.destra h3 {
+  font-size: 27px;
+  color: #33475b;
+  margin-top: 50px;
+}
+
+.destra h4 {
+  font-size: 17px;
+  color: #33475b;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+#feature {
+  font-size: 22px;
+  display: inline;
+  color: #33475b;
+  float: left;
+  padding: 20px 60px 20px 0;
+}
+
+
+.hr hr {
+  width: 270px;
+  float: left;
+  margin-top: 52px;
+  border: 1px solid #33475b;
+  background-color: #33475b;
 }
 
 .three {
