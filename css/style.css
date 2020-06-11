@@ -125,7 +125,6 @@ li a {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 99999;
 }
 
 .title {
