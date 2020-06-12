@@ -234,19 +234,28 @@ li a {
 
 #feature {
   font-size: 22px;
-  display: inline;
   color: #33475b;
-  float: left;
-  padding: 20px 60px 20px 0;
+  position: relative;
+  display: inline-block;
+  padding: 20px 60px 20px 20px;
 }
 
 
-.hr hr {
-  width: 270px;
-  float: left;
-  margin-top: 52px;
-  border: 1px solid #33475b;
-  background-color: #33475b;
+.hr  {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hr > span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  width: 200px;
+  background-color:  #33475b;
+  left:100%;
+  margin-left: 15px;
 }
 
 .three {
