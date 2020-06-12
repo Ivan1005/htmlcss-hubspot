@@ -398,18 +398,71 @@ table tr :last-child {
 /* FINE TERZA SECTION*/
 
 /* INIZIO QUARTA SECTION*/
-.fourth {
-  height: 970px;
-}
 
 .fourth-one {
-  height: 300px;
   background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.fourth-two{
-  height: 500px;
-  background-color: black;
+.customers {
+  text-align: left;
+  float: left;
+  width: 35%;
+}
+
+.customers .h2 {
+  font-size: 50px;
+  color: #33475b;
+  padding: 30px;
+}
+
+.customers .h4 {
+  width: 250px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 30px;
+  color:  #33475b;
+}
+
+.loghi {
+  float: left;
+  width: 65%;
+}
+
+.sponsor td {
+  padding: 20px;
+}
+
+.sponsor img {
+  height: 20px;
+}
+
+td .ingrandire {
+  height: 40px;
+}
+
+.fourth-two {
+  margin-bottom: 40px;
+}
+
+.china {
+  float: left;
+}
+
+.china h2 {
+  font-size: 50px;
+  color: #33475b;
+  padding: 30px 0;
+}
+
+.china button {
+  margin: 20px 0;
+}
+
+#mostro {
+  height: 400px;
+  margin: 20px 0 20px 270px;
 }
 
 /* FINE QUARTA SECTION*/
