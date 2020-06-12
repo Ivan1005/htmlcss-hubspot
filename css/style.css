@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+p , h2 , h3 , div {
+  font-family: 'Merriweather';
+}
+
 /* INIZIO FIXED */
 .fixed {
   height: 90px;
@@ -118,14 +122,6 @@ li a {
 .first {
   height: 600px;
   background-color: #fff2ee;
-  position: relative;
-}
-
-.first img {
-  height: 550px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .title {
@@ -163,14 +159,22 @@ li a {
 .azzurro {
   height: 86px;
   width: 100%;
-  background-color: #afebe4;
-  border-bottom: 2px solid #33475b;
+  background-color: #afebe4 ;
+  border-bottom: 1px solid #33475b;
+  border-top: 3.9px solid #33475b;
   bottom:0;
+  position: relative;
 }
 
+#casetta{
+  height: 550px;
+  position: absolute;
+  right: 0;
+  bottom  : 0;
+}
 /* INIZIO SECONDA SECTION*/
 .second {
-  height: 1400px;
+  height: 1500px;
   background-color: #f5f8fa;
 }
 
@@ -297,7 +301,6 @@ li a {
   padding: 30px 20px;
 }
 .container-three.terzo {
-  padding-left: 30px;
   box-shadow: 2px 2px 5px 5px #eaf0f6;
   border-radius: 4px;
 }
@@ -326,14 +329,14 @@ li a {
 
 /* INIZIO TERZA SECTION*/
 .third {
-  height:770px;
   background-color: #00b6ac;
+  padding: 20px 0 60px 0 ;
 }
 
 .third-text {
-  height: 300px;
+
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0 40px 0;
 }
 
 .third-text h2 , .third-text h4 {
@@ -352,13 +355,12 @@ li a {
 
 .table {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
 table {
   border-collapse: collapse;
-  margin: 20px auto;
   color: white;
 }
 table td, table th {
@@ -376,9 +378,12 @@ td {
 
 td .span {
   display: block;
-  height: 40px;
-  line-height: 40px;
+  height: 20px;
+  line-height: 20px;
   position: relative;
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .più {
@@ -427,7 +432,7 @@ table tr :last-child {
 
 .customers .h4 {
   width: 250px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   padding: 0 30px;
   color:  #33475b;
