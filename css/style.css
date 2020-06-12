@@ -359,7 +359,7 @@ table td, table th {
 
 td {
   vertical-align: center;
-  padding: 30px 50px;
+  padding: 30px 70px;
 }
 
 #tr td{
@@ -472,6 +472,7 @@ footer {
   background-color: #33475b;
 }
 
+
 .footer-one {
   height: 500px;
 }
@@ -487,6 +488,7 @@ footer {
   padding: 30px 0;
 }
 
+
 .link h3 {
   color: white;
   text-transform: uppercase;
@@ -495,6 +497,10 @@ footer {
 .link p{
   color: white;
   font-size: 20px;
+}
+
+.link  p:hover {
+  color:  #00b6ac;
 }
 
 .link button {
@@ -513,11 +519,22 @@ footer {
   padding: 20px 10px;
 }
 
+#social i:hover {
+  color: #00b6ac;
+}
 
 #centrare {
   text-align: center;
   font-size: 25px;
   color: white;
+}
+
+#centrare p {
+  display: inline;
+}
+
+#centrare p:hover {
+  color: #00b6ac;
 }
 
 .footer-two {
@@ -535,4 +552,8 @@ footer {
   margin: 40px 0;
   font-size: 20px;
   color: white;
+}
+
+#copyr span:hover {
+  color: #00b6ac;
 }
