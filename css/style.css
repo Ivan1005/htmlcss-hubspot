@@ -219,20 +219,20 @@ li a {
   float: left;
 }
 
-.destra h3 {
+.h3 {
   font-size: 27px;
   color: #33475b;
   margin-top: 50px;
 }
 
-.destra h4 {
+.h4 {
   font-size: 17px;
   color: #33475b;
   margin-top: 20px;
   line-height: 25px;
 }
 
-#feature {
+.feature {
   font-size: 22px;
   color: #33475b;
   position: relative;
@@ -258,11 +258,62 @@ li a {
   margin-left: 15px;
 }
 
-.three {
-  height: 600px;
-  background-color: violet;
+.check {
+  font-size: 17px;
+  color: #33475b;
 }
 
+.check i {
+  background-color: #ff7a59;
+  border-radius: 10px;
+  color: white;
+  padding: 2px;
+}
+
+
+.block {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.three-block {
+  width: 33.3333%;
+  float: left;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.container-three.primo {
+  padding-right: 30px;
+}
+
+.three-block.center {
+  padding: 30px 10px;
+}
+.container-three.terzo {
+  padding-left: 30px;
+}
+
+.container-three {
+  background-color: white;
+  float: left;
+}
+
+#hr {
+  width: 80%;
+  margin: 30px auto;
+  background-color: #33475b;
+}
+
+.bottom {
+  text-align: left;
+  padding: 20px;
+}
+
+.bottom .learn {
+  padding: 30px 25%;
+}
 /* FINE SECONDA SECTION*/
 
 /* INIZIO TERZA SECTION*/
@@ -273,14 +324,78 @@ li a {
 
 .third-text {
   height: 300px;
-  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.third-text h2 , .third-text h4 {
+  color: white;
+}
+
+.third-text h2 {
+  padding: 30px 0;
+  font-size: 35px;
+}
+
+.third-text h4 {
+  line-height: 20px;
+
 }
 
 .table {
   height: 500px;
-  background-color: black;
+  text-align: center;
+  font-size: 40px;
 }
 
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  color: white;
+}
+table td, table th {
+  border: 1px solid white;
+}
+
+td {
+  vertical-align: center;
+  padding: 30px 50px;
+}
+
+#tr td{
+  border-top: 0;
+}
+
+td .span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+
+.più {
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+
+}
+
+.undertext {
+  font-size: 14px;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr :last-child {
+  border-right: 0;
+}
 /* FINE TERZA SECTION*/
 
 /* INIZIO QUARTA SECTION*/
