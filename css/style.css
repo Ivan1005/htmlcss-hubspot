@@ -236,6 +236,7 @@ li a {
   color: #33475b;
   margin-top: 20px;
   line-height: 25px;
+  height: 99.2px;
 }
 
 .feature {
@@ -292,7 +293,6 @@ li a {
 }
 
 .container-three.primo {
-  padding-right: 30px;
   box-shadow: 2px 2px 5px 5px #eaf0f6;
   border-radius: 4px;
 }
@@ -303,6 +303,7 @@ li a {
 .container-three.terzo {
   box-shadow: 2px 2px 5px 5px #eaf0f6;
   border-radius: 4px;
+  text-align: center;
 }
 
 .container-three {
@@ -310,6 +311,7 @@ li a {
   float: left;
   border-radius: 4px;
   box-shadow: 2px 2px 5px 5px #eaf0f6;
+  text-align: center;
 }
 
 #hr {
@@ -329,7 +331,7 @@ li a {
 
 /* INIZIO TERZA SECTION*/
 .third {
-  background-color: #00b6ac;
+  background-image: linear-gradient(to right , #afebe4 , #00b6ac);
   padding: 20px 0 60px 0 ;
 }
 
